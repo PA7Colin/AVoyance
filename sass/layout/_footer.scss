@@ -46,3 +46,19 @@
 .article {
     height: 500px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        border-bottom: 1px solid $fontcolor1;
+        &__container {
+            display: block;
+        }
+        &__box {
+            margin-top: 3rem;
+        }
+        &__arrow a {
+            display: none;
+        }
+    }
+}
