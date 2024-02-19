@@ -1,0 +1,38 @@
+.goldbook {
+    width: 100%;
+    margin-bottom: 6rem;
+    form {
+        .formcontainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+    }
+
+    input {
+        border: 1px solid blue;
+        min-height: 35px;
+    }
+    button {
+        padding: 1.5rem 3rem;
+        border-radius: 1rem;
+        background-image: linear-gradient(to right, $colorprimary, $colorsecondary);
+        cursor: pointer;
+        border: none;
+        color: $fontcolor1;
+        margin-left: 2rem;
+        @include whiteshadow;
+    }
+    label {
+        margin: 0 1.5rem 0 0.5rem;
+    }
+    textarea {
+        width: 50%;
+        height: 75px;
+    }
+    #margin {
+        margin-bottom: 3rem;
+    }
+}

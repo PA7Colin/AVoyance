@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Cinzel', serif;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    //background-attachment: fixed; // parrallax
+    // background-position: center;
+    color: $fontcolor1;
+}
+main {
+    max-width: 1400px;
+    margin: auto;
+    padding: 1rem;
+}
+h2 {
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    &::after {
+        @include underscore;
+    }
+}
