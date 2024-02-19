@@ -129,8 +129,8 @@ nav ul li:last-child {
 }
 
 nav a {
-  text-decoration: none;
   -webkit-text-decoration: none;
+  text-decoration: none;
   color: #D3B973;
   border: 0px solid transparent;
   transition: border-bottom 0.3s ease-in-out;
@@ -182,8 +182,8 @@ nav a:hover {
 .aboutme__container a {
   box-shadow: 0 0 0.5rem rgb(200, 200, 200);
   padding: 1rem;
-  text-decoration: none;
   -webkit-text-decoration: none;
+  text-decoration: none;
   border-radius: 1.5rem;
   color: #D3B973;
   background-image: linear-gradient(to right, #020739, #1D4AAD);
@@ -240,14 +240,14 @@ nav a:hover {
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
   margin: 3rem 0;
-  background-image: url(images/livre70.png);
   -webkit-background-image: url(images/livre70.png);
+  background-image: url(images/livre70.png);
+  -webkit-background-size: cover;
+  -webkit-background-attachment: fixed;
+  -webkit-background-position: center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -webkit-background-position: center;
-  -webkit-background-attachment: fixed;
   box-shadow: 0 0 0.5rem #D3B973;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -390,8 +390,8 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 .footer__container a {
-  text-decoration: none;
   -webkit-text-decoration: none;
+  text-decoration: none;
   color: #a67c00;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;

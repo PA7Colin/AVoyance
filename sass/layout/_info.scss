@@ -11,14 +11,14 @@
         padding: 1.5rem 1rem;
         border-radius: 0.5rem;
         margin: 3rem 0;
-        background-image: url(images/livre70.png);
         -webkit-background-image: url(images/livre70.png);
+        background-image: url(images/livre70.png);
+        -webkit-background-size: cover;
+        -webkit-background-attachment: fixed;
+        -webkit-background-position: center;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        -webkit-background-size: cover;
-        -webkit-background-position: center;
-        -webkit-background-attachment: fixed;
         @include goldshadow;
         @include font;
     }
