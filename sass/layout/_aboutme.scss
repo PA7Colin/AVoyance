@@ -23,6 +23,7 @@
             @include whiteshadow;
             padding: 1rem;
             text-decoration: none;
+            -webkit-text-decoration: none;
             border-radius: 1.5rem;
             color: $fontcolor1;
             background-image: linear-gradient(to right, $colorprimary, $colorsecondary);

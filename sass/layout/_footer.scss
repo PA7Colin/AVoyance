@@ -19,6 +19,7 @@
         }
         a {
             text-decoration: none;
+            -webkit-text-decoration: none;
             color: $fontcolor;
             @include font;
         }

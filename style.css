@@ -182,6 +182,7 @@ nav a:hover {
   box-shadow: 0 0 0.5rem rgb(200, 200, 200);
   padding: 1rem;
   text-decoration: none;
+  -webkit-text-decoration: none;
   border-radius: 1.5rem;
   color: #D3B973;
   background-image: linear-gradient(to right, #020739, #1D4AAD);
@@ -239,9 +240,13 @@ nav a:hover {
   border-radius: 0.5rem;
   margin: 3rem 0;
   background-image: url(images/livre70.png);
+  -webkit-background-image: url(images/livre70.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -webkit-background-position: center;
+  -webkit-background-attachment: fixed;
   box-shadow: 0 0 0.5rem #D3B973;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -385,6 +390,7 @@ nav a:hover {
 }
 .footer__container a {
   text-decoration: none;
+  -webkit-text-decoration: none;
   color: #a67c00;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
