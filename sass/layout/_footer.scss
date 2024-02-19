@@ -18,7 +18,7 @@
             margin-bottom: 1rem;
         }
         a {
-            -webkit-text-decoration: none;
+            -webkit-text-decoration: none !important;
             text-decoration: none;
             color: $fontcolor;
             @include font;

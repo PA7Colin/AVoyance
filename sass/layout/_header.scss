@@ -49,7 +49,7 @@ nav ul li:last-child {
 }
 
 nav a {
-    -webkit-text-decoration: none;
+    -webkit-text-decoration: none !important;
     text-decoration: none;
     color: $fontcolor1;
     border: 0px solid transparent;

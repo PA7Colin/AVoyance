@@ -129,7 +129,7 @@ nav ul li:last-child {
 }
 
 nav a {
-  -webkit-text-decoration: none;
+  -webkit-text-decoration: none !important;
   text-decoration: none;
   color: #D3B973;
   border: 0px solid transparent;
@@ -182,7 +182,7 @@ nav a:hover {
 .aboutme__container a {
   box-shadow: 0 0 0.5rem rgb(200, 200, 200);
   padding: 1rem;
-  -webkit-text-decoration: none;
+  -webkit-text-decoration: none !important;
   text-decoration: none;
   border-radius: 1.5rem;
   color: #D3B973;
@@ -240,14 +240,14 @@ nav a:hover {
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
   margin: 3rem 0;
-  -webkit-background-image: url(images/livre70.png);
+  -webkit-background-image: url(images/livre70.png) !important;
   background-image: url(images/livre70.png);
-  -webkit-background-size: cover;
-  -webkit-background-attachment: fixed;
-  -webkit-background-position: center;
+  -webkit-background-size: cover !important;
   background-size: cover;
-  background-position: center;
+  -webkit-background-attachment: fixed !important;
   background-attachment: fixed;
+  -webkit-background-position: center !important;
+  background-position: center;
   box-shadow: 0 0 0.5rem #D3B973;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -390,7 +390,7 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 .footer__container a {
-  -webkit-text-decoration: none;
+  -webkit-text-decoration: none !important;
   text-decoration: none;
   color: #a67c00;
   font-family: "Montserrat", sans-serif;

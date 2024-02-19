@@ -22,7 +22,7 @@
         a {
             @include whiteshadow;
             padding: 1rem;
-            -webkit-text-decoration: none;
+            -webkit-text-decoration: none !important;
             text-decoration: none;
             border-radius: 1.5rem;
             color: $fontcolor1;
